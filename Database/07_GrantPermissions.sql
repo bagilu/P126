@@ -1,0 +1,16 @@
+REVOKE ALL ON TABLE public."TblP126Profile" FROM PUBLIC,anon,authenticated;
+GRANT ALL ON TABLE public."TblP126Profile" TO service_role;
+REVOKE ALL ON TABLE public."TblP126Period" FROM PUBLIC,anon,authenticated;
+GRANT ALL ON TABLE public."TblP126Period" TO service_role;
+REVOKE ALL ON TABLE public."TblP126Timetable" FROM PUBLIC,anon,authenticated;
+GRANT ALL ON TABLE public."TblP126Timetable" TO service_role;
+REVOKE ALL ON TABLE public."TblP126BusySlot" FROM PUBLIC,anon,authenticated;
+GRANT ALL ON TABLE public."TblP126BusySlot" TO service_role;
+REVOKE ALL ON TABLE public."TblP126Group" FROM PUBLIC,anon,authenticated;
+GRANT ALL ON TABLE public."TblP126Group" TO service_role;
+REVOKE ALL ON TABLE public."TblP126GroupMember" FROM PUBLIC,anon,authenticated;
+GRANT ALL ON TABLE public."TblP126GroupMember" TO service_role;
+REVOKE ALL ON TABLE public."TblP126GroupInvite" FROM PUBLIC,anon,authenticated;
+GRANT ALL ON TABLE public."TblP126GroupInvite" TO service_role;
+REVOKE ALL ON FUNCTION public."P126Action"(text,jsonb) FROM PUBLIC,anon;
+GRANT EXECUTE ON FUNCTION public."P126Action"(text,jsonb) TO authenticated;
