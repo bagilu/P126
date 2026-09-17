@@ -1,4 +1,0 @@
--- P126 V0.1 採 RPC-only：不建立直接存取 policy。
--- RLS 無 policy = 預設拒絕。authenticated/anon 無資料表權限。
--- P126Action 以 SECURITY DEFINER 執行，於每個操作核對 auth.uid 與成員權限。
--- 不以 USING(true) 取代權限檢查。
