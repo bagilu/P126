@@ -2,6 +2,6 @@
 window.P126_CONFIG = {
  supabaseUrl: 'https://YOUR_PROJECT.supabase.co',
  supabaseAnonKey: 'YOUR_PUBLIC_ANON_OR_PUBLISHABLE_KEY',
- // 改成實際 GitHub Pages 網址，並加入 Supabase Auth 的 Redirect URLs。
- redirectUrl: 'https://YOUR_ACCOUNT.github.io/P126/'
+ // P130 根網址；帳號維護在新分頁開啟，完成後回 P126 登入。
+ accountCenterUrl: 'https://bagilu.github.io/P130/'
 };
